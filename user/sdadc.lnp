@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+".\startup_stm32f37x.o"
+".\stm32f37x_it.o"
+".\system_stm32f37x.o"
+".\uart.o"
+".\sdadc.o"
+".\systick.o"
+".\time.o"
+".\exit.o"
+".\adc.o"
+".\main.o"
+".\stm32f37x_usart.o"
+".\stm32f37x_gpio.o"
+".\stm32f37x_sdadc.o"
+".\stm32f37x_exti.o"
+".\stm32f37x_misc.o"
+".\stm32f37x_rcc.o"
+".\stm32f37x_syscfg.o"
+".\stm32f37x_pwr.o"
+".\stm32f37x_tim.o"
+".\stm32f37x_spi.o"
+".\stm32f37x_adc.o"
+--library_type=microlib --strict --scatter ".\sdadc.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\sdadc.map" -o .\sdadc.axf
