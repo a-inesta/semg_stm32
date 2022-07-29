@@ -405,7 +405,7 @@ ARM Macro Assembler    Page 7
   176 00000000                 IMPORT           SystemInit
   177 00000000                 IMPORT           __main
   178 00000000         
-  179 00000000 4806    00      LDR              R0, =SystemInit
+  179 00000000 4806            LDR              R0, =SystemInit
   180 00000002 4780            BLX              R0
   181 00000004 4806            LDR              R0, =__main
   182 00000006 4700            BX               R0
@@ -721,10 +721,11 @@ ARM Macro Assembler    Page 12
 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\startup_stm32f37x.d -o.\startup_stm32f37x.o -IF:\Keil\ARM\RV3
-1\INC -IF:\Keil\ARM\CMSIS\Include -IF:\Keil\ARM\Inc\ST\STM32F37x --predefine="_
-_EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SE
-TA 514" --list=.\startup_stm32f37x.lst startup_stm32f37x.s
+erwork --depend=.\startup_stm32f37x.d -o.\startup_stm32f37x.o -I"D:\Program Fil
+es\Keil\ARM\RV31\INC" -I"D:\Program Files\Keil\ARM\CMSIS\Include" -I"D:\Program
+ Files\Keil\ARM\Inc\ST\STM32F37x" --predefine="__EVAL SETA 1" --predefine="__MI
+CROLIB SETA 1" --predefine="__UVISION_VERSION SETA 518" --list=.\startup_stm32f
+37x.lst startup_stm32f37x.s
 
 
 
@@ -835,14 +836,6 @@ Symbol: __Vectors_End
 ARM Macro Assembler    Page 1 Alphabetic symbol ordering
 Relocatable symbols
 
- 00000000
-
-Symbol: 
-   Definitions
-      None
-   Uses
-      None
-Warning:  undefinedComment:  unused
 .text 00000000
 
 Symbol: .text
@@ -894,12 +887,6 @@ Symbol: CAN1_SCE_IRQHandler
       At line 319 in file startup_stm32f37x.s
    Uses
       At line 107 in file startup_stm32f37x.s
-
-
-
-ARM Macro Assembler    Page 2 Alphabetic symbol ordering
-Relocatable symbols
-
       At line 253 in file startup_stm32f37x.s
 
 CAN1_TX_IRQHandler 0000001A
@@ -908,6 +895,12 @@ Symbol: CAN1_TX_IRQHandler
    Definitions
       At line 316 in file startup_stm32f37x.s
    Uses
+
+
+
+ARM Macro Assembler    Page 2 Alphabetic symbol ordering
+Relocatable symbols
+
       At line 104 in file startup_stm32f37x.s
       At line 250 in file startup_stm32f37x.s
 
@@ -959,12 +952,6 @@ Symbol: DMA1_Channel3_IRQHandler
 DMA1_Channel4_IRQHandler 0000001A
 
 Symbol: DMA1_Channel4_IRQHandler
-
-
-
-ARM Macro Assembler    Page 3 Alphabetic symbol ordering
-Relocatable symbols
-
    Definitions
       At line 311 in file startup_stm32f37x.s
    Uses
@@ -972,6 +959,12 @@ Relocatable symbols
       At line 245 in file startup_stm32f37x.s
 
 DMA1_Channel5_IRQHandler 0000001A
+
+
+
+
+ARM Macro Assembler    Page 3 Alphabetic symbol ordering
+Relocatable symbols
 
 Symbol: DMA1_Channel5_IRQHandler
    Definitions
@@ -1025,12 +1018,6 @@ Symbol: DMA2_Channel3_IRQHandler
       At line 143 in file startup_stm32f37x.s
       At line 283 in file startup_stm32f37x.s
 
-
-
-ARM Macro Assembler    Page 4 Alphabetic symbol ordering
-Relocatable symbols
-
-
 DMA2_Channel4_IRQHandler 0000001A
 
 Symbol: DMA2_Channel4_IRQHandler
@@ -1038,6 +1025,12 @@ Symbol: DMA2_Channel4_IRQHandler
       At line 350 in file startup_stm32f37x.s
    Uses
       At line 144 in file startup_stm32f37x.s
+
+
+
+ARM Macro Assembler    Page 4 Alphabetic symbol ordering
+Relocatable symbols
+
       At line 284 in file startup_stm32f37x.s
 
 DMA2_Channel5_IRQHandler 0000001A
@@ -1089,12 +1082,6 @@ EXTI1_IRQHandler 0000001A
 Symbol: EXTI1_IRQHandler
    Definitions
       At line 304 in file startup_stm32f37x.s
-
-
-
-ARM Macro Assembler    Page 5 Alphabetic symbol ordering
-Relocatable symbols
-
    Uses
       At line 92 in file startup_stm32f37x.s
       At line 238 in file startup_stm32f37x.s
@@ -1103,6 +1090,12 @@ EXTI2_TS_IRQHandler 0000001A
 
 Symbol: EXTI2_TS_IRQHandler
    Definitions
+
+
+
+ARM Macro Assembler    Page 5 Alphabetic symbol ordering
+Relocatable symbols
+
       At line 305 in file startup_stm32f37x.s
    Uses
       At line 93 in file startup_stm32f37x.s
@@ -1155,18 +1148,18 @@ Symbol: FPU_IRQHandler
 
 HardFault_Handler 0000000A
 
-
-
-ARM Macro Assembler    Page 6 Alphabetic symbol ordering
-Relocatable symbols
-
-
 Symbol: HardFault_Handler
    Definitions
       At line 192 in file startup_stm32f37x.s
    Uses
       At line 70 in file startup_stm32f37x.s
       At line 193 in file startup_stm32f37x.s
+
+
+
+
+ARM Macro Assembler    Page 6 Alphabetic symbol ordering
+Relocatable symbols
 
 I2C1_ER_IRQHandler 0000001A
 
@@ -1219,12 +1212,6 @@ Symbol: NMI_Handler
    Definitions
       At line 187 in file startup_stm32f37x.s
    Uses
-
-
-
-ARM Macro Assembler    Page 7 Alphabetic symbol ordering
-Relocatable symbols
-
       At line 69 in file startup_stm32f37x.s
       At line 188 in file startup_stm32f37x.s
 
@@ -1233,6 +1220,12 @@ PVD_IRQHandler 0000001A
 Symbol: PVD_IRQHandler
    Definitions
       At line 298 in file startup_stm32f37x.s
+
+
+
+ARM Macro Assembler    Page 7 Alphabetic symbol ordering
+Relocatable symbols
+
    Uses
       At line 86 in file startup_stm32f37x.s
       At line 232 in file startup_stm32f37x.s
@@ -1284,12 +1277,6 @@ Symbol: Reset_Handler
 
 SDADC1_IRQHandler 0000001A
 
-
-
-
-ARM Macro Assembler    Page 8 Alphabetic symbol ordering
-Relocatable symbols
-
 Symbol: SDADC1_IRQHandler
    Definitions
       At line 352 in file startup_stm32f37x.s
@@ -1298,6 +1285,12 @@ Symbol: SDADC1_IRQHandler
       At line 286 in file startup_stm32f37x.s
 
 SDADC2_IRQHandler 0000001A
+
+
+
+ARM Macro Assembler    Page 8 Alphabetic symbol ordering
+Relocatable symbols
+
 
 Symbol: SDADC2_IRQHandler
    Definitions
@@ -1349,12 +1342,6 @@ Symbol: SVC_Handler
       At line 211 in file startup_stm32f37x.s
    Uses
       At line 78 in file startup_stm32f37x.s
-
-
-
-ARM Macro Assembler    Page 9 Alphabetic symbol ordering
-Relocatable symbols
-
       At line 212 in file startup_stm32f37x.s
 
 SysTick_Handler 00000018
@@ -1363,6 +1350,12 @@ Symbol: SysTick_Handler
    Definitions
       At line 224 in file startup_stm32f37x.s
    Uses
+
+
+
+ARM Macro Assembler    Page 9 Alphabetic symbol ordering
+Relocatable symbols
+
       At line 82 in file startup_stm32f37x.s
       At line 225 in file startup_stm32f37x.s
 
@@ -1414,12 +1407,6 @@ Symbol: TIM15_IRQHandler
 TIM16_IRQHandler 0000001A
 
 Symbol: TIM16_IRQHandler
-
-
-
-ARM Macro Assembler    Page 10 Alphabetic symbol ordering
-Relocatable symbols
-
    Definitions
       At line 322 in file startup_stm32f37x.s
    Uses
@@ -1427,6 +1414,12 @@ Relocatable symbols
       At line 256 in file startup_stm32f37x.s
 
 TIM17_IRQHandler 0000001A
+
+
+
+
+ARM Macro Assembler    Page 10 Alphabetic symbol ordering
+Relocatable symbols
 
 Symbol: TIM17_IRQHandler
    Definitions
@@ -1480,12 +1473,6 @@ Symbol: TIM4_IRQHandler
       At line 115 in file startup_stm32f37x.s
       At line 261 in file startup_stm32f37x.s
 
-
-
-ARM Macro Assembler    Page 11 Alphabetic symbol ordering
-Relocatable symbols
-
-
 TIM5_IRQHandler 0000001A
 
 Symbol: TIM5_IRQHandler
@@ -1493,6 +1480,12 @@ Symbol: TIM5_IRQHandler
       At line 343 in file startup_stm32f37x.s
    Uses
       At line 135 in file startup_stm32f37x.s
+
+
+
+ARM Macro Assembler    Page 11 Alphabetic symbol ordering
+Relocatable symbols
+
       At line 277 in file startup_stm32f37x.s
 
 TIM6_DAC1_IRQHandler 0000001A
@@ -1544,12 +1537,6 @@ USBWakeUp_IRQHandler 0000001A
 
 Symbol: USBWakeUp_IRQHandler
    Definitions
-
-
-
-ARM Macro Assembler    Page 12 Alphabetic symbol ordering
-Relocatable symbols
-
       At line 358 in file startup_stm32f37x.s
    Uses
       At line 161 in file startup_stm32f37x.s
@@ -1558,6 +1545,12 @@ Relocatable symbols
 USB_HP_IRQHandler 0000001A
 
 Symbol: USB_HP_IRQHandler
+
+
+
+ARM Macro Assembler    Page 12 Alphabetic symbol ordering
+Relocatable symbols
+
    Definitions
       At line 356 in file startup_stm32f37x.s
    Uses
@@ -1591,7 +1584,7 @@ Symbol: WWDG_IRQHandler
       At line 85 in file startup_stm32f37x.s
       At line 231 in file startup_stm32f37x.s
 
-77 symbols
+76 symbols
 
 
 
@@ -1646,4 +1639,4 @@ Symbol: __main
       At line 181 in file startup_stm32f37x.s
 Comment: __main used once
 2 symbols
-428 symbols in table
+427 symbols in table

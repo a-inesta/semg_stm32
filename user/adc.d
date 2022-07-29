@@ -1,22 +1,36 @@
-./adc.o: ..\drive\adc.c \
-  D:\Program\ Files\Keil5\ARM\INC\ST\STM32F37x\stm32f37x.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cm4.h \
-  D:\Program\ Files\Keil5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cmInstr.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cmFunc.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cm4_simd.h \
-  D:\Program\ Files\Keil5\ARM\INC\ST\STM32F37x\system_stm32f37x.h \
-  ..\stm32f3\stm32f37x_conf.h ..\lib\inc\stm32f37x_adc.h \
-  ..\lib\inc\stm32f37x_can.h ..\lib\inc\stm32f37x_cec.h \
-  ..\lib\inc\stm32f37x_crc.h ..\lib\inc\stm32f37x_comp.h \
-  ..\lib\inc\stm32f37x_dac.h ..\lib\inc\stm32f37x_dbgmcu.h \
-  ..\lib\inc\stm32f37x_dma.h ..\lib\inc\stm32f37x_exti.h \
-  ..\lib\inc\stm32f37x_flash.h ..\lib\inc\stm32f37x_gpio.h \
-  ..\lib\inc\stm32f37x_syscfg.h ..\lib\inc\stm32f37x_i2c.h \
-  ..\lib\inc\stm32f37x_iwdg.h ..\lib\inc\stm32f37x_pwr.h \
-  ..\lib\inc\stm32f37x_rcc.h ..\lib\inc\stm32f37x_rtc.h \
-  ..\lib\inc\stm32f37x_sdadc.h ..\lib\inc\stm32f37x_spi.h \
-  ..\lib\inc\stm32f37x_tim.h ..\lib\inc\stm32f37x_usart.h \
-  ..\lib\inc\stm32f37x_wwdg.h ..\lib\inc\stm32f37x_misc.h ..\drive\adc.h \
-  ..\drive\uart.h \
-  D:\Program\ Files\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h
+.\adc.o: ..\drive\adc.c
+.\adc.o: C:\Keil_v5\ARM\Inc\ST\STM32F37x\stm32f37x.h
+.\adc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\adc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\adc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\adc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\adc.o: C:\Keil_v5\ARM\Inc\ST\STM32F37x\system_stm32f37x.h
+.\adc.o: ..\stm32f3\stm32f37x_conf.h
+.\adc.o: ..\lib\inc\stm32f37x_adc.h
+.\adc.o: C:\Keil_v5\ARM\Inc\ST\STM32F37x\stm32f37x.h
+.\adc.o: ..\lib\inc\stm32f37x_can.h
+.\adc.o: ..\lib\inc\stm32f37x_cec.h
+.\adc.o: ..\lib\inc\stm32f37x_crc.h
+.\adc.o: ..\lib\inc\stm32f37x_comp.h
+.\adc.o: ..\lib\inc\stm32f37x_dac.h
+.\adc.o: ..\lib\inc\stm32f37x_dbgmcu.h
+.\adc.o: ..\lib\inc\stm32f37x_dma.h
+.\adc.o: ..\lib\inc\stm32f37x_exti.h
+.\adc.o: ..\lib\inc\stm32f37x_flash.h
+.\adc.o: ..\lib\inc\stm32f37x_gpio.h
+.\adc.o: ..\lib\inc\stm32f37x_syscfg.h
+.\adc.o: ..\lib\inc\stm32f37x_i2c.h
+.\adc.o: ..\lib\inc\stm32f37x_iwdg.h
+.\adc.o: ..\lib\inc\stm32f37x_pwr.h
+.\adc.o: ..\lib\inc\stm32f37x_rcc.h
+.\adc.o: ..\lib\inc\stm32f37x_rtc.h
+.\adc.o: ..\lib\inc\stm32f37x_sdadc.h
+.\adc.o: ..\lib\inc\stm32f37x_spi.h
+.\adc.o: ..\lib\inc\stm32f37x_tim.h
+.\adc.o: ..\lib\inc\stm32f37x_usart.h
+.\adc.o: ..\lib\inc\stm32f37x_wwdg.h
+.\adc.o: ..\lib\inc\stm32f37x_misc.h
+.\adc.o: ..\drive\adc.h
+.\adc.o: ..\drive\uart.h
+.\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

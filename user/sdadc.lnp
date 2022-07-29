@@ -7,7 +7,6 @@
 ".\systick.o"
 ".\time.o"
 ".\exit.o"
-".\adc.o"
 ".\main.o"
 ".\stm32f37x_usart.o"
 ".\stm32f37x_gpio.o"
@@ -20,6 +19,7 @@
 ".\stm32f37x_tim.o"
 ".\stm32f37x_spi.o"
 ".\stm32f37x_adc.o"
+".\stm32f37x_i2c.o"
 --library_type=microlib --strict --scatter ".\sdadc.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

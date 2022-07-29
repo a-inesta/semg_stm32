@@ -1,20 +1,34 @@
-./stm32f37x_pwr.o: ..\lib\src\stm32f37x_pwr.c ..\lib\inc\stm32f37x_pwr.h \
-  D:\Program\ Files\Keil5\ARM\INC\ST\STM32F37x\stm32f37x.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cm4.h \
-  D:\Program\ Files\Keil5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cmInstr.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cmFunc.h \
-  D:\Program\ Files\Keil5\ARM\CMSIS\Include\core_cm4_simd.h \
-  D:\Program\ Files\Keil5\ARM\INC\ST\STM32F37x\system_stm32f37x.h \
-  ..\stm32f3\stm32f37x_conf.h ..\lib\inc\stm32f37x_adc.h \
-  ..\lib\inc\stm32f37x_can.h ..\lib\inc\stm32f37x_cec.h \
-  ..\lib\inc\stm32f37x_crc.h ..\lib\inc\stm32f37x_comp.h \
-  ..\lib\inc\stm32f37x_dac.h ..\lib\inc\stm32f37x_dbgmcu.h \
-  ..\lib\inc\stm32f37x_dma.h ..\lib\inc\stm32f37x_exti.h \
-  ..\lib\inc\stm32f37x_flash.h ..\lib\inc\stm32f37x_gpio.h \
-  ..\lib\inc\stm32f37x_syscfg.h ..\lib\inc\stm32f37x_i2c.h \
-  ..\lib\inc\stm32f37x_iwdg.h ..\lib\inc\stm32f37x_rcc.h \
-  ..\lib\inc\stm32f37x_rtc.h ..\lib\inc\stm32f37x_sdadc.h \
-  ..\lib\inc\stm32f37x_spi.h ..\lib\inc\stm32f37x_tim.h \
-  ..\lib\inc\stm32f37x_usart.h ..\lib\inc\stm32f37x_wwdg.h \
-  ..\lib\inc\stm32f37x_misc.h
+.\stm32f37x_pwr.o: ..\lib\src\stm32f37x_pwr.c
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_pwr.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\Inc\ST\STM32F37x\stm32f37x.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\Inc\ST\STM32F37x\system_stm32f37x.h
+.\stm32f37x_pwr.o: ..\stm32f3\stm32f37x_conf.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_adc.h
+.\stm32f37x_pwr.o: D:\Program Files\Keil\ARM\Inc\ST\STM32F37x\stm32f37x.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_can.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_cec.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_crc.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_comp.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_dac.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_dbgmcu.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_dma.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_exti.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_flash.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_gpio.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_syscfg.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_i2c.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_iwdg.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_pwr.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_rcc.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_rtc.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_sdadc.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_spi.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_tim.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_usart.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_wwdg.h
+.\stm32f37x_pwr.o: ..\lib\inc\stm32f37x_misc.h
